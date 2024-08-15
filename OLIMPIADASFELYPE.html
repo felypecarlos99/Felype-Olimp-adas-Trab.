@@ -38,8 +38,8 @@
             padding: 0 0 100px 0;
             font-family: "Quicksand", sans-serif;
             font-optical-sizing: auto;
-           font-weight: weight;
-           font-style: normal;
+            font-weight: weight;
+            font-style: normal;
         }
 
         table {
@@ -58,38 +58,60 @@
         th {
             background-color: #f2f2f2;
         }
-        newsSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.newsDiv {
-    display: flex;
-}
-.newsDiv img {
-    width: 150px;
-}
-.newsDiv h5 {
-    font-size: 20px;
-}
-.newsDiv p {
-    font-size: 15px;
-    color: gray;
-}
-a {
-    text-decoration: none;
-}
-.buttonViewMore {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 135, 254);
-    border-radius: 10px;
-    width: 80px;
-    height: 20px;
-}
-        
 
+        .newsSection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .newsDiv {
+            display: flex;
+        }
+
+        .newsDiv img {
+            width: 300px;
+            border-radius: 20px;
+            border: 3px solid gray;
+        }
+
+        .newsDiv h5 {
+            font-size: 20px;
+            color: white;
+        }
+
+        .newsDiv p {
+            font-size: 15px;
+            color: gray;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .buttonViewMore {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: 5px;
+            width: 80px;
+            height: 40px;
+            transition: 0.3s;
+        }
+
+        .buttonViewMore:hover {
+            background-color: black;
+            transition: 0.3;
+        }
+
+        .corfundo1 {
+            background-color: black;
+        }
+
+        .newsDiv1 p {
+            color: black;
+        }
     </style>
 </head>
 
@@ -118,81 +140,94 @@ a {
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td> <img width="30" height="20" src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/USA.png" alt="usa" /> </td>
-                    <td>27</td>
-                    <td>35</td>
-                    <td>33</td>
-                    <td>95</td>
+                    <td> <img width="30" height="20"
+                            src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/USA.png"
+                            alt="usa" /> </td>
+                    <td>40</td>
+                    <td>44</td>
+                    <td>42</td>
+                    <td>126</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td> <img width="30" height="20" src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/CHN.png" alt="china" /></td>
-                    <td>26</td>
+                    <td> <img width="30" height="20"
+                            src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/CHN.png"
+                            alt="china" /></td>
+                    <td>40</td>
+                    <td>27</td>
                     <td>24</td>
-                    <td>17</td>
-                    <td>67</td>
+                    <td>91</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td><img width="30" height="20" src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/AUS.png"
-                            alt="australia-flag--v1" /></td>
-                    <td>18</td>
-                    <td>14</td>
-                    <td>11</td>
-                    <td>43</td>
+                    <td><img width="30" height="20"
+                            src="	https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/JPN.png"
+                            alt="japao" /></td>
+                    <td>20</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>45</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td> <img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/FRA.png" width="30" height="20" alt="França bandeira"></td>
-                    <td>13</td>
-                    <td>17</td>
-                    <td>21</td>
-                    <td>51</td>
+                    <td> <img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/AUS.png"
+                            width="30" height="20" alt="australia"></td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>16</td>
+                    <td>53</td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td> <img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/GBR.png" width="30" height="20" alt="Grã-Bretanha bandeira"></td>
-                    <td>12</td>
-                    <td>17</td>
-                    <td>21</td>
-                    <td>51</td>
+                    <td> <img src="	https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/FRA.png"
+                            width="30" height="20" alt="france"></td>
+                    <td>16</td>
+                    <td>26</td>
+                    <td>22</td>
+                    <td>64</td>
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td><img src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/KOR.png" width="30" height="20" alt="República da Coréia bandeira"></td>
-                    <td>12</td>
-                    <td>8</td>
+                    <td><img src="	https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/NED.png"
+                            width="30" height="20" alt="ned"></td>
+                    <td>15</td>
                     <td>7</td>
-                    <td>27</td>               
+                    <td>12</td>
+                    <td>34</td>
                 </tr>
                 <tr>
-                    <td>18</td>
-                    <td> <img width="30" height="20"  src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/BRA.png"></td>
-                    <td>2</td>
-                    <td>5</td>
+                    <td>20</td>
+                    <td> <img width="30" height="20"
+                            src="https://gstatic.olympics.com/s1/t_original/static/noc/oly/3x2/180x120/BRA.png"></td>
+                    <td>3</td>
                     <td>7</td>
-                    <td>14</td>
+                    <td>10</td>
+                    <td>20</td>
                 </tr>
             </tbody>
         </table>
     </div>
-    <section class="newsSection">
-        <div>
-            <div class="newsDiv">
-                <img
-                    src="https://s2-ge.glbimg.com/JIFnnyfh_7GAWLLoFIU6GyCUQTI=/0x0:4000x2667/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/O/o/gQXLg9Qsy8yvhFAB0KPQ/000-36df6az.jpg"/>
-                <div>
-                    <h5>Espanha é campeã no futebol masculino nas Olímpiadas Paris 2024</h5>
-                    <p>Em um jogo emcocionante contra a França, a seleção da Espanha se sagra campeã das Olímpiadas na categoria futebol masculino.</p>
-                    <a href="https://olympics.com/en/paris-2024/videos/images-of-the-day-day-12-olympic-games-paris-2024">
-                        <div class="buttonViewMore">
-                            <p>Ver mais</p>
-                        </div>
-                    </a>
+    <div class="corfundo1">
+        <section class="newsSection">
+            <div>
+                <div class="newsDiv">
+                    <img
+                        src="https://s2-ge.glbimg.com/JIFnnyfh_7GAWLLoFIU6GyCUQTI=/0x0:4000x2667/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/O/o/gQXLg9Qsy8yvhFAB0KPQ/000-36df6az.jpg" />
+                    <div>
+                        <h5>Espanha é campeã no futebol masculino nas Olímpiadas Paris 2024</h5>
+                        <p>Em um jogo emcocionante contra a França, a seleção da Espanha se sagra campeã das Olímpiadas
+                            na categoria futebol masculino.</p>
+                        <a
+                            href="https://olympics.com/en/paris-2024/videos/images-of-the-day-day-12-olympic-games-paris-2024">
+                            <div class="buttonViewMore">
+                                <p class="newsDiv1">Ver mais</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </body>
 
 </html>
