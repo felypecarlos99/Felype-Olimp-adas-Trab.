@@ -4,14 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=New+Amsterdam&display=swap" rel="stylesheet">
+
     <title>Document</title>
     <style>
+        * {
+
+            font-family: "New Amsterdam", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
         body {
             width: 100vw;
             height: 100vh;
             margin: 0;
             padding: 0;
         }
+
 
         .centro {
             width: 100%;
@@ -36,11 +49,11 @@
             flex-direction: column;
             text-align: center;
             padding: 0 0 100px 0;
-            font-family: "Quicksand", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: weight;
-            font-style: normal;
+            font-size: 20px;
+    
         }
+
+
 
         table {
             width: 90%;
@@ -72,7 +85,8 @@
         .newsDiv img {
             width: 300px;
             border-radius: 20px;
-            border: 3px solid gray;
+            border: 3px solid white;
+            margin: 10px 20px;
         }
 
         .newsDiv h5 {
@@ -122,7 +136,7 @@
 
     <div class="div-table">
         <h1>Quadro de medalhas</h1>
-        <table>
+        <table class="fontemudada1">
             <thead>
                 <tr>
                     <th>ORDEM</th>
@@ -215,7 +229,7 @@
                         src="https://s2-ge.glbimg.com/JIFnnyfh_7GAWLLoFIU6GyCUQTI=/0x0:4000x2667/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/O/o/gQXLg9Qsy8yvhFAB0KPQ/000-36df6az.jpg" />
                     <div>
                         <h5>Espanha é campeã no futebol masculino nas Olímpiadas Paris 2024</h5>
-                        <p>Em um jogo emcocionante contra a França, a seleção da Espanha se sagra campeã das Olímpiadas
+                        <p>Em um jogo emocionante contra a França, a seleção da Espanha se sagra campeã das Olímpiadas
                             na categoria futebol masculino.</p>
                         <a
                             href="https://olympics.com/en/paris-2024/videos/images-of-the-day-day-12-olympic-games-paris-2024">
@@ -228,6 +242,7 @@
             </div>
         </section>
     </div>
+    
 </body>
 
 </html>
