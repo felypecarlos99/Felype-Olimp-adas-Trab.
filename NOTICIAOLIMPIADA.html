@@ -9,12 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
     <title>Document</title>
     <style>
         body {
             background-color: black;
             width: 100vw;
             height: 110vh;
+            margin: 0;
 
         }
 
@@ -26,16 +31,67 @@
 
         }
 
-        .news-img{
+        .news-img {
             width: auto;
             height: 140px;
+        }
+
+        .fontdiferente2 {
+            font-family: "Dosis", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
         }
 
         .fontdiferente {
             font-family: "New Amsterdam", sans-serif;
             font-weight: 400;
             font-style: normal;
+            color: black;
+        }
+
+        .divtitulo {
+            background-color: white;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 0 0;
+        }
+
+        .divtitulo h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .divtitulo p {
+            font-size: 25px;
+            margin: 0;
+        }
+
+        .imagemprincipal {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .imagemprincipal img {
+            height: 400px;
+            width: auto;
+        }
+
+        .video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .hr{
             color: white;
+            margin: 50px 20%;
+
         }
     </style>
 </head>
@@ -44,8 +100,22 @@
     <div class="div-img">
         <img class="news-img" src="https://olympics.com/_pr/topic-assets/paris-2024/emblem-oly.svg">
     </div>
-    <div>
-        <p class="fontdiferente">Espanha vence a França e é ouro no futebol masculino em Paris 2024</p>
+    <div class="divtitulo">
+        <h1 class="fontdiferente">Espanha vence a França e é ouro no futebol masculino em Paris 2024</h1>
+
+        <p class="fontdiferente2">Em um jogo emocionante contra a França, a seleção da Espanha se sagra campeã das
+            Olímpiadas
+            na categoria futebol masculino.</p>
+    </div>
+    <hr class="hr">
+    <div class="video">
+        <video width="500px" controls autoplay>
+            <source src="../Downloads/FELYPAO/videoplayback.mp4"
+        </video>
+    </div>
+    <div class="imagemprincipal">
+        <img
+            src="https://s2-ge.glbimg.com/JIFnnyfh_7GAWLLoFIU6GyCUQTI=/0x0:4000x2667/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/O/o/gQXLg9Qsy8yvhFAB0KPQ/000-36df6az.jpg">
     </div>
 </body>
 
