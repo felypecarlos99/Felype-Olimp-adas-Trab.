@@ -1,0 +1,156 @@
+
+* {
+
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media(max-width:440px){
+    body{
+        background: pink;
+    }
+}
+
+@media(min-width:441) and(max-width:760px){
+    body{
+        background: blue;
+    }
+}
+
+@media(min-width:761px){
+    body{
+        background: green
+    };
+}
+
+#teladefundo{
+background-color: white;
+display: flex;
+padding: 10px;
+align-items: center;
+justify-content: space-around;
+font-family: Danfo;
+position: fixed;
+width: 100%;
+}
+*{
+margin: 0;
+}
+.linkslist{
+display: flex;
+}
+.linkslist li {
+margin: 0 10px;
+list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.centro {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: start;
+    background-image: url(https://rare-gallery.com/uploads/posts/380363-4k-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centro img {
+    width: 120px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.div-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 100px 0;
+    font-size: 20px;
+
+}
+
+
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.newsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsDiv {
+    display: flex;
+}
+
+.newsDiv img {
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid white;
+    margin: 10px 20px;
+}
+
+.newsDiv h5 {
+    font-size: 20px;
+    color: white;
+}
+
+.newsDiv p {
+    font-size: 15px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttonViewMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.buttonViewMore:hover {
+    background-color: black;
+    transition: 0.3;
+}
+
+.corfundo1 {
+    background-color: black;
+}
+
+.newsDiv1 p {
+    color: black;
+}
